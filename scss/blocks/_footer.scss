@@ -1,0 +1,38 @@
+.footer {
+	margin-top: 40px;
+	padding: 40px 0 0 0;
+
+	&__container {
+		display: flex;
+		gap: 40px;
+		justify-content: space-around;
+
+	}
+
+	&__payment {
+		li {
+			padding: 16px 0;
+		}
+	}
+	&__copyright {
+		font-size: 12px;
+		margin-top: 16px;
+		border-top: 1px solid #101317;
+		padding: 30px 0;
+		text-align: center;
+		a {
+			color:  #0ff;
+		}
+	}
+}
+
+.footer-menu {
+	font-size: 14px;
+	li {
+		padding: 16px 0;
+	}
+	a {
+
+		color: #fff;
+	}
+}

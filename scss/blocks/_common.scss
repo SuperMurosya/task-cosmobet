@@ -1,0 +1,35 @@
+body {
+	background-color: #030303;
+	color: #fff;
+	font-family: Poppins;
+}
+
+.container {
+	max-width: $maxWidthContainer - (2 * $containerPadding);
+	margin: 0 auto;
+	padding: 0 $containerPadding;
+}
+
+
+
+.button {
+	padding: 0 10px;
+	line-height: 28px;
+	height: 28px;
+	font-size: 10px;
+	border-radius: 7px;
+	font-family: Poppins;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 2;
+}
+
+.text  {
+	line-height: 1.7;
+}
+
+
+
+

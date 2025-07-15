@@ -1,0 +1,170 @@
+.header {
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		height: 58px;
+		align-items: center;
+	}
+
+	hr {
+
+		height: 1px;
+		background-color: rgba(255, 255, 255, 0.18);
+		border: none;
+	}
+}
+
+.authorize {
+	display: flex;
+	gap: 5px;
+
+	&__registration {
+		background: #cf0e48;
+		color: #fff;
+
+		font-weight: 700;
+	}
+
+	&__login {
+		background: #0ff;
+		color: #030303;
+
+		font-weight: 700;
+	}
+}
+
+.menu {
+	font-family: Poppins;
+	font-weight: 400;
+	height: 55px;
+	background: #030303;
+	border-top: 1px solid #101317;
+	border-bottom: 1px solid #101317;
+	color: #fff;
+	font-size: 14px;
+	line-height: 14px;
+
+	@media (max-width: 600px) {
+		height: auto;
+		padding: 10px 0;
+
+
+	}
+
+
+
+	a {
+		color: #fff;
+		display: flex;
+		align-items: center;
+
+	}
+
+	img {
+		width: 24px;
+		height: 24px;
+		margin-top: 0;
+		margin-right: 4px;
+	}
+
+
+	&__list {
+		display: flex;
+		justify-content: center;
+		gap: 38px;
+		flex-wrap: wrap;
+
+	}
+
+	&__link {
+		flex: 0 0 100%;
+	}
+
+
+	&__icon.casino {
+		animation: casinoAnimation 1s steps(40) infinite;
+		background-image: url(/images/minu-icon/casino.png);
+		scale: .7;
+		width: 30px;
+		height: 30px;
+		transform-origin: top center;
+		overflow: hidden;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		-ms-flex-negative: 0;
+		flex-shrink: 0;
+		margin-right: 2px;
+	}
+
+	&__icon.livecasino {
+		animation: livecasinoAnimation .8s steps(50) infinite;
+		background-image: url(/images/minu-icon/livecasino.png);
+		scale: .7;
+		transform-origin: top center;
+		width: 30px;
+		height: 30px;
+		overflow: hidden;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		-ms-flex-negative: 0;
+		flex-shrink: 0;
+		margin-right: 2px;
+	}
+
+	&__icon.promos {
+		animation: promosAnimation .8s steps(19) infinite;
+		background-image: url(/images/minu-icon/promos.png);
+		transform: scaleX(-1);
+		scale: 1;
+		position: relative;
+		left: -0.2rem;
+		top: -0.1rem;
+		transform-origin: top center;
+		width: 30px;
+		height: 30px;
+		overflow: hidden;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		-ms-flex-negative: 0;
+		flex-shrink: 0;
+		margin-right: 2px;
+	}
+
+
+
+}
+
+@keyframes casinoAnimation {
+	from {
+		background-position-y: 0;
+	}
+
+	to {
+		background-position-y: -1200px;
+	}
+}
+
+
+
+@keyframes livecasinoAnimation {
+	from {
+		background-position-y: 0;
+	}
+
+	to {
+		background-position-y: -1500px;
+	}
+}
+
+
+
+@keyframes promosAnimation {
+	from {
+		background-position-y: 0;
+	}
+
+	to {
+		background-position-y: -570px;
+	}
+}
