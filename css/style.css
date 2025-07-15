@@ -165,7 +165,7 @@ h1 {
 }
 .menu__icon.casino {
   animation: casinoAnimation 1s steps(40) infinite;
-  background-image: url(/images/minu-icon/casino.png);
+  background-image: url(../images/minu-icon/casino.png);
   scale: 0.7;
   width: 30px;
   height: 30px;
@@ -178,7 +178,7 @@ h1 {
 }
 .menu__icon.livecasino {
   animation: livecasinoAnimation 0.8s steps(50) infinite;
-  background-image: url(/images/minu-icon/livecasino.png);
+  background-image: url(../images/minu-icon/livecasino.png);
   scale: 0.7;
   transform-origin: top center;
   width: 30px;
@@ -191,7 +191,7 @@ h1 {
 }
 .menu__icon.promos {
   animation: promosAnimation 0.8s steps(19) infinite;
-  background-image: url(/images/minu-icon/promos.png);
+  background-image: url(../images/minu-icon/promos.png);
   transform: scaleX(-1);
   scale: 1;
   position: relative;

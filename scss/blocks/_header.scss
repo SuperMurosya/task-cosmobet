@@ -84,7 +84,7 @@
 
 	&__icon.casino {
 		animation: casinoAnimation 1s steps(40) infinite;
-		background-image: url(/images/minu-icon/casino.png);
+		background-image: url(../images/minu-icon/casino.png);
 		scale: .7;
 		width: 30px;
 		height: 30px;
@@ -99,7 +99,7 @@
 
 	&__icon.livecasino {
 		animation: livecasinoAnimation .8s steps(50) infinite;
-		background-image: url(/images/minu-icon/livecasino.png);
+		background-image: url(../images/minu-icon/livecasino.png);
 		scale: .7;
 		transform-origin: top center;
 		width: 30px;
@@ -114,7 +114,7 @@
 
 	&__icon.promos {
 		animation: promosAnimation .8s steps(19) infinite;
-		background-image: url(/images/minu-icon/promos.png);
+		background-image: url(../images/minu-icon/promos.png);
 		transform: scaleX(-1);
 		scale: 1;
 		position: relative;
